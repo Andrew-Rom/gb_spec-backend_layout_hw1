@@ -1,6 +1,11 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
 }
 
 .main_menu {
@@ -18,13 +23,16 @@
 }
 
 .main_menu__link {
-    text-decoration: none;
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+    /* Free creativity below */
     text-transform: uppercase;
     transition: color 0.5s;
 }
 
 .main_menu__link:hover {
-    color: red;
+    color: darkblue;
 }
 
 .header {
@@ -34,10 +42,32 @@
     gap: 10px;
 }
 
+.page_title {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold
+}
+
+.subtitle {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
 .text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+    /* Free creativity below */
     padding-left: 20px;
     padding-right: 20px;
     text-align: justify;
+
 }
 
 .products {
@@ -70,6 +100,3 @@
     padding: 5px 20px;
     text-align: center;
 }
-
-
-
